@@ -1,0 +1,16 @@
+[
+    {
+        "model": "raterprojectapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Mario Kart",
+            "description": "A racing game.",
+            "designer": "Hasbro",
+            "year_released": "1990-05-28",
+            "number_of_players": 10,
+            "estimated_time_to_play": 60,
+            "age_recommendation": 15,
+            "gamer": 1
+        }
+    }
+]

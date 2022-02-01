@@ -1,0 +1,10 @@
+[
+    {
+        "model": "raterprojectapi.gamer",
+        "pk": 1,
+        "fields": {
+            "name": "Brady Suedmeyer",
+            "username": "Sweet Angel Baby"
+        }
+    }
+]

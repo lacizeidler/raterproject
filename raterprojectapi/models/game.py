@@ -1,4 +1,3 @@
-from tkinter import CASCADE
 from django.db import models
 
 
@@ -10,4 +9,4 @@ class Game(models.Model):
     number_of_players = models.IntegerField()
     estimated_time_to_play = models.IntegerField()
     age_recommendation = models.IntegerField()
-    player = models.ForeignKey("Gamer", on_delete=CASCADE)
+    gamer = models.ForeignKey("Gamer", on_delete=models.CASCADE)
