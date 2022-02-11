@@ -30,7 +30,7 @@ class GameView(ViewSet):
             designer=request.data['designer'],
             year_released=request.data['year_released'],
             number_of_players=request.data['number_of_players'],
-            time_to_play=request.data['estimated_time_to_play'],
+            estimated_time_to_play=request.data['estimated_time_to_play'],
             age_recommendation=request.data['age_recommendation'],
             gamer=gamer
         )
